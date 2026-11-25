@@ -688,6 +688,15 @@ a.cert:hover { background: var(--paper-2); }
 .h .flowbox.big .fbox { font-size: max(12px, 1.4cqw); padding: .9cqw 1.2cqw; }
 .h .flowbox.big i { font-size: max(15px, 1.8cqw); }
 
+
+.statsbtns { display: flex; flex-direction: column; gap: 1.2svh; align-self: stretch; }
+.h .who .statsbtns .stats { justify-content: flex-start; gap: 3vw; }
+.h .who .statsbtns .stats > div { text-align: left; }
+.flinks a { color: inherit; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.h .eblock.s2 { min-height: 22cqw; padding-top: 3.2cqw; gap: .5cqw; }
+.h .eblock.s2 .cap2 { font-size: max(9.5px, 1.05cqw); max-width: 96%; }
+.h .eblock.s1 { padding-top: 3cqw; }
+.eblock .cap2 + .cap2 { margin-top: .2em; }
 </style></head><body>
 
 <svg class="defs" aria-hidden="true" focusable="false"><defs>
@@ -721,10 +730,10 @@ a.cert:hover { background: var(--paper-2); }
         <div class="bwrap"><div class="whocard">
           <p class="stk" style="align-self:flex-start">Profile</p>
           <h2>Who's running?</h2>
-          <p>Final-year B.Tech student in Artificial Intelligence and Data Science who builds software end to end: Java and Spring Boot REST APIs at Snapdeek Technologies, full-stack web and mobile apps, and applied machine learning from model design to deployment. 300+ LeetCode problems solved, and always keen to turn an idea into something that works.</p>
+          <p>Final-year B.Tech student in Artificial Intelligence and Data Science who builds software end to end: Java and Spring Boot REST APIs at Snapdeek Technologies, full-stack web and mobile apps, and applied machine learning from model design to deployment. 500+ LeetCode problems solved, and always keen to turn an idea into something that works.</p>
           <p class="closing">Built to run the full distance, from the first line of code to the finish.</p>
-          <div class="stats"><div><b>300+</b><span>LeetCode problems</span></div><div><b>7.40</b><span>CGPA</span></div></div>
-          <div class="btnrow"><a class="btn" href="https://drive.google.com/drive/folders/1fx4vzd2Dpzg6ZaUbar2mh4QNclOkzIbS?usp=sharing" target="_blank" rel="noopener">Resume</a><a class="btn" href="https://www.linkedin.com/in/kalimuthuk" target="_blank" rel="noopener">LinkedIn</a><a class="btn" href="https://leetcode.com/u/kalimuthu_K67/" target="_blank" rel="noopener">LeetCode</a><button class="btn fill" type="button" data-detail="contact">Contact</button></div>
+          <div class="statsbtns"><div class="stats"><div><b>500+</b><span>LeetCode problems</span></div><div><b>7.40</b><span>CGPA</span></div></div>
+          <div class="btnrow"><a class="btn" href="https://drive.google.com/drive/folders/1fx4vzd2Dpzg6ZaUbar2mh4QNclOkzIbS?usp=sharing" target="_blank" rel="noopener">Resume</a><a class="btn" href="https://www.linkedin.com/in/kalimuthuk" target="_blank" rel="noopener">LinkedIn</a><a class="btn" href="https://leetcode.com/u/kalimuthu_K67/" target="_blank" rel="noopener">LeetCode</a><button class="btn fill" type="button" data-detail="contact">Contact</button></div></div>
         </div></div>
       </section>
 
@@ -736,11 +745,11 @@ a.cert:hover { background: var(--paper-2); }
           <p class="cap pos rev1" style="--x:3%;--y:17%;--w:44cqw">Two steps up: school first, then college.</p>
           <div class="estep pos rev1" style="--x:4%;--w:41cqw;top:auto;bottom:0">
             <div class="ecard"><p class="stk" style="align-self:flex-start">12th · School</p><b>Higher Secondary Certificate (HSC)</b><span>Akshaya Academy Matriculation Higher Secondary School · Dindigul</span><span>Stream: Computer Science · 2022 – 2023</span><em>92.16%</em></div>
-            <div class="eblock s1"><p class="step">Step 1 · School</p><p class="cap2">Studied Computer Science and the basics of programming.</p></div>
+            <div class="eblock s1"><p class="step">Step 1 · School</p><p class="cap2">Took the Computer Science group in Higher Secondary. This is where I learned the basics of programming and logic, which led me to Artificial Intelligence and Data Science.</p></div>
           </div>
           <div class="estep pos rev2" style="--x:52%;--w:44cqw;top:auto;bottom:0">
             <div class="ecard"><p class="stk" style="align-self:flex-start">College · B.Tech</p><b>Artificial Intelligence and Data Science</b><span>Madras Institute of Technology, Anna University · Chennai</span><span>2023 – present (final year)</span><em>CGPA 7.40</em></div>
-            <div class="eblock s2"><p class="step">Step 2 · College</p><p class="cap2">Studied data structures and algorithms, OOP, DBMS, operating systems, machine learning and data science.</p><a class="more lnk" href="https://drive.google.com/drive/folders/1fx4vzd2Dpzg6ZaUbar2mh4QNclOkzIbS?usp=sharing" target="_blank" rel="noopener">Resume ↗</a></div>
+            <div class="eblock s2"><p class="step">Step 2 · College</p><p class="cap2">Core computer science: object oriented programming, data structures, database management systems, operating systems, design and analysis of algorithms, computer networks, and distributed systems and cloud computing.</p><p class="cap2">AI and data science: fundamentals of data science, machine learning methods, artificial intelligence, deep learning, natural language processing, big data analytics, and machine learning operations.</p><p class="cap2">Applied work: data exploration and visualization, plus a software development project laboratory.</p><a class="more lnk" href="https://drive.google.com/drive/folders/1fx4vzd2Dpzg6ZaUbar2mh4QNclOkzIbS?usp=sharing" target="_blank" rel="noopener">Resume ↗</a></div>
           </div>
         </div>
       </section>
@@ -763,9 +772,10 @@ a.cert:hover { background: var(--paper-2); }
           <ul class="stks chips pos rev3" style="--x:3%;--y:70%;--w:54cqw"><li class="stk">Java</li><li class="stk">Spring Boot</li><li class="stk">MongoDB</li><li class="stk">JWT</li><li class="stk">RBAC</li><li class="stk">React</li><li class="stk">Postman</li><li class="stk">Swagger</li><li class="stk">Git</li></ul>
           <div class="btns pos rev3" style="--x:64%;--y:66%"><button class="more" type="button" data-detail="snapdeek">Details +</button><a class="more lnk" href="https://drive.google.com/file/d/1KFmjhcdGN-hXGSBcnRvZZOF-gA0n_YDd/view?usp=sharing" target="_blank" rel="noopener">Experience certificate ↗</a></div>
         </div>
-        <div class="hurdle" style="--hx:104vw"><svg viewBox="0 0 140 70" aria-hidden="true"><rect class="ink" x="14" y="26" width="8" height="44"/><rect class="ink" x="118" y="26" width="8" height="44"/><rect fill="#F2EDE3" x="6" y="8" width="128" height="22"/><text x="70" y="25" text-anchor="middle">REST APIs</text></svg></div>
-        <div class="hurdle" style="--hx:134vw"><svg viewBox="0 0 140 70" aria-hidden="true"><rect class="ink" x="14" y="26" width="8" height="44"/><rect class="ink" x="118" y="26" width="8" height="44"/><rect fill="#F2EDE3" x="6" y="8" width="128" height="22"/><text x="70" y="25" text-anchor="middle">JWT + RBAC</text></svg></div>
-        <div class="hurdle" style="--hx:164vw"><svg viewBox="0 0 140 70" aria-hidden="true"><rect class="ink" x="14" y="26" width="8" height="44"/><rect class="ink" x="118" y="26" width="8" height="44"/><rect fill="#F2EDE3" x="6" y="8" width="128" height="22"/><text x="70" y="25" text-anchor="middle">REACT UI</text></svg></div>
+        <div class="hurdle" style="--hx:96vw"><svg viewBox="0 0 140 70" aria-hidden="true"><rect class="ink" x="14" y="26" width="8" height="44"/><rect class="ink" x="118" y="26" width="8" height="44"/><rect fill="#F2EDE3" x="6" y="8" width="128" height="22"/><text x="70" y="25" text-anchor="middle">REST APIs</text></svg></div>
+        <div class="hurdle" style="--hx:122vw"><svg viewBox="0 0 140 70" aria-hidden="true"><rect class="ink" x="14" y="26" width="8" height="44"/><rect class="ink" x="118" y="26" width="8" height="44"/><rect fill="#F2EDE3" x="6" y="8" width="128" height="22"/><text x="70" y="25" text-anchor="middle">SPRING BOOT</text></svg></div>
+        <div class="hurdle" style="--hx:148vw"><svg viewBox="0 0 140 70" aria-hidden="true"><rect class="ink" x="14" y="26" width="8" height="44"/><rect class="ink" x="118" y="26" width="8" height="44"/><rect fill="#F2EDE3" x="6" y="8" width="128" height="22"/><text x="70" y="25" text-anchor="middle">JWT + RBAC</text></svg></div>
+        <div class="hurdle" style="--hx:174vw"><svg viewBox="0 0 140 70" aria-hidden="true"><rect class="ink" x="14" y="26" width="8" height="44"/><rect class="ink" x="118" y="26" width="8" height="44"/><rect fill="#F2EDE3" x="6" y="8" width="128" height="22"/><text x="70" y="25" text-anchor="middle">REACT</text></svg></div>
       </section>
 
       <!-- PROJECT 1 -->
@@ -778,10 +788,10 @@ a.cert:hover { background: var(--paper-2); }
             </svg>
           <p class="slab pos" style="--x:3%;--y:3%">Project 1</p>
           <div class="lcol pos" style="--x:3%;--y:15%;--w:45cqw">
-            <div class="mtag rev1"><b>EBOP: Enterprise Business Operations Platform</b><span>Enterprise software · private repository</span></div>
-            <div class="pcard rev2"><h4>What I built</h4><ul><li>A multi-company platform: each company's tasks, clients, meetings and attendance stay isolated.</li><li>Leads convert into projects, and revenue counts once a project is COMPLETED.</li><li>Leave approvals, calendar, reports, a client portal and a role-gated assistant on the Claude API.</li></ul><div class="res2"><div><b>24</b><span>frontend pages</span></div><div><b>3.5</b><span>Spring Boot</span></div></div></div>
+            <div class="mtag rev1"><b>EBOP: Enterprise Business Operations Platform</b><span>Enterprise software · Spring Boot and React</span></div>
+            <div class="pcard rev2"><h4>What I built</h4><ul><li>A multi-company platform: each company's data stays isolated.</li><li>Leads convert into projects, with reports and a role-gated assistant.</li></ul><div class="res2"><div><b>24</b><span>frontend pages</span></div><div><b>3.5</b><span>Spring Boot</span></div></div></div>
             <ul class="stks chips rev3"><li class="stk">Java</li><li class="stk">Spring Boot</li><li class="stk">MongoDB</li><li class="stk">React 18</li><li class="stk">JWT / RBAC</li><li class="stk">Docker</li></ul>
-            <div class="btns rev3"><button class="more" type="button" data-detail="ebop">Case study +</button><span class="pnote">Private repository</span></div>
+            <div class="btns rev3"><button class="more" type="button" data-detail="ebop">Case study +</button><a class="more lnk" href="about:blank" target="_blank" rel="noopener">GitHub ↗</a></div>
           </div>
           <button class="photo pos rev1" style="--x:54%;--y:5%;--r:-1deg;--w:40cqw" type="button" data-detail="ebop" aria-label="Open photos: EBOP dashboard"><img data-img="e_dash" alt="EBOP dashboard"><span class="pc">EBOP dashboard</span></button><button class="photo pos rev1" style="--x:54%;--y:44%;--r:1deg;--w:19.5cqw" type="button" data-detail="ebop" aria-label="Open photos: Landing page"><img data-img="e_land" alt="Landing page"><span class="pc">Landing page</span></button><button class="photo pos rev1" style="--x:75%;--y:44%;--r:-1deg;--w:19.5cqw" type="button" data-detail="ebop" aria-label="Open photos: Reports + EBOP assistant"><img data-img="e_rep" alt="Reports + EBOP assistant"><span class="pc">Reports + EBOP assistant</span></button>
         </div>
@@ -817,7 +827,7 @@ a.cert:hover { background: var(--paper-2); }
           <p class="slab pos" style="--x:3%;--y:3%">Project 3</p>
           <div class="lcol pos" style="--x:3%;--y:15%;--w:45cqw">
             <div class="mtag rev1"><b>Sports Connect</b><span>Full-stack sports platform · course AD23505 · team of three</span></div>
-            <div class="pcard rev2"><h4>What I built</h4><ul><li>Separate logins and dashboards for players and teams: players keep a profile and stats, teams manage rosters and look for recruits.</li><li>Tournament module with upcoming events, scheduling, scorecards, a social feed and live updates over Socket.IO.</li><li>An AI sports assistant (Gemini) on the dashboard answers questions and helps users find their way around.</li></ul><div class="res2"><div><b>10</b><span>sports in the hub</span></div><div><b>3</b><span>tiers</span></div></div></div>
+            <div class="pcard rev2"><h4>What I built</h4><ul><li>Separate logins and dashboards for players and teams.</li><li>Tournaments, a social feed and an AI sports assistant.</li></ul><div class="res2"><div><b>10</b><span>sports in the hub</span></div><div><b>3</b><span>tiers</span></div></div></div>
             <ul class="stks chips rev3"><li class="stk">HTML/CSS/JS</li><li class="stk">Node.js</li><li class="stk">Express</li><li class="stk">MongoDB</li><li class="stk">React</li><li class="stk">Gemini</li></ul>
             <div class="btns rev3"><button class="more" type="button" data-detail="sports">Case study +</button><a class="more lnk" href="https://github.com/kalimuthu765/Sports_connect_website" target="_blank" rel="noopener">GitHub ↗</a></div>
           </div>
@@ -857,7 +867,7 @@ a.cert:hover { background: var(--paper-2); }
             <div class="mtag rev1"><b>RealityFrame Fusion</b><span>Computer vision · gesture-controlled camera effects</span></div>
             <div class="pcard rev2"><h4>What I built</h4><ul><li>Two computer-vision demos merged: hand-gesture portals and ArUco-tracked AR graphics.</li><li>Erases people from photos, video and a live webcam, with a background that keeps itself up to date.</li><li>Flask web studio, plus a gesture classifier you can train on your own hands.</li></ul><div class="res2"><div><b>4</b><span>modes</span></div><div><b>3</b><span>erase tools</span></div></div></div>
             <ul class="stks chips rev3"><li class="stk">Python</li><li class="stk">OpenCV</li><li class="stk">MediaPipe</li><li class="stk">ArUco</li><li class="stk">scikit-learn</li><li class="stk">Flask</li></ul>
-            <div class="btns rev3"><button class="more" type="button" data-detail="reality">Case study +</button><span class="pnote">Not on GitHub yet</span></div>
+            <div class="btns rev3"><button class="more" type="button" data-detail="reality">Case study +</button><a class="more lnk" href="about:blank" target="_blank" rel="noopener">GitHub ↗</a></div>
           </div>
           <button class="photo pos rev1" style="--x:54%;--y:5%;--r:-1deg;--w:40cqw" type="button" data-detail="reality" aria-label="Open photos: Erase people: before and after"><img data-img="r_erase" alt="Erase people: before and after"><span class="pc">Erase people: before and after</span></button><button class="photo pos rev1" style="--x:54%;--y:44%;--r:1deg;--w:19.5cqw" type="button" data-detail="reality" aria-label="Open photos: Erase from video"><img data-img="r_video" alt="Erase from video"><span class="pc">Erase from video</span></button><button class="photo pos rev1" style="--x:75%;--y:44%;--r:-1deg;--w:19.5cqw" type="button" data-detail="reality" aria-label="Open photos: Gesture portal"><img data-img="r_portal" alt="Gesture portal"><span class="pc">Gesture portal</span></button>
         </div>
@@ -902,8 +912,8 @@ a.cert:hover { background: var(--paper-2); }
       </section>
 
       <!-- PROJECT 8 -->
-      <section class="chapter proj" id="ch-p8" data-tag="Checkpoint|Project 8 · StudyWorld" data-label="Checkpoint 11 · Project 8 · StudyWorld">
-        <p class="layer">Checkpoint 11 · StudyWorld</p>
+      <section class="chapter proj" id="ch-p8" data-tag="Checkpoint|Project 8 · Feedback" data-label="Checkpoint 11 · Project 8 · Feedback collection system">
+        <p class="layer">Checkpoint 11 · Feedback Collection System</p>
         <div class="box">
           <svg class="art" viewBox="0 0 1600 900" aria-hidden="true">
             <rect class="ink" x="968" y="690" width="26" height="210"/><rect class="ink" x="1392" y="690" width="26" height="210"/>
@@ -911,18 +921,18 @@ a.cert:hover { background: var(--paper-2); }
             </svg>
           <p class="slab pos" style="--x:3%;--y:3%">Project 8</p>
           <div class="lcol pos" style="--x:3%;--y:15%;--w:45cqw">
-            <div class="mtag rev1"><b>StudyWorld</b><span>Full-stack web app · HTML, CSS, JavaScript + Spring Boot</span></div>
-            <div class="pcard rev2"><h4>What I built</h4><ul><li>Front end in HTML, CSS and JavaScript: home, dashboard, profile, registration, to-do, courses, calculator, games and music pages.</li><li>Java 8 and Spring Boot backend in layers (controller, service, repository, model, DTO), with REST APIs and exception handling.</li><li>Spring Security with JWT for login; built with Maven, tested in Postman, versioned with Git.</li></ul><div class="res2"><div><b>9</b><span>pages</span></div><div><b>11</b><span>endpoints</span></div></div></div>
-            <ul class="stks chips rev3"><li class="stk">HTML/CSS/JS</li><li class="stk">Java 8</li><li class="stk">Spring Boot</li><li class="stk">JWT</li><li class="stk">MongoDB</li><li class="stk">Maven</li></ul>
-            <div class="btns rev3"><button class="more" type="button" data-detail="r_studyworld">Case study +</button><a class="more lnk" href="https://github.com/kalimuthu765/StudyWorld" target="_blank" rel="noopener">GitHub ↗</a></div>
+            <div class="mtag rev1"><b>Feedback Collection System</b><span>MERN · forms and analytics</span></div>
+            <div class="pcard rev2"><h4>What I built</h4><ul><li>Landing page lists the available feedback forms; respondents answer dynamic questions (text, radio, checkbox, rating).</li><li>Admins register and log in securely (hashed passwords, JWT) and build forms from a dashboard.</li><li>Per-form analytics with charts, so admins can see how people rated each question.</li></ul><div class="res2"><div><b>4</b><span>question types</span></div><div><b>MERN</b><span>stack</span></div></div></div>
+            <ul class="stks chips rev3"><li class="stk">React 18</li><li class="stk">Node.js</li><li class="stk">Express</li><li class="stk">MongoDB</li><li class="stk">JWT</li><li class="stk">bcryptjs</li></ul>
+            <div class="btns rev3"><button class="more" type="button" data-detail="r_feedback">Case study +</button><a class="more lnk" href="https://github.com/kalimuthu765/Feedback_collection_system" target="_blank" rel="noopener">GitHub ↗</a></div>
           </div>
-          <button class="photo pos rev1" style="--x:54%;--y:5%;--r:-1deg;--w:40cqw" type="button" data-detail="r_studyworld" aria-label="Open photos: Dashboard"><img data-img="sw_dash" alt="Dashboard"><span class="pc">Dashboard</span></button><button class="photo pos rev1" style="--x:54%;--y:44%;--r:1deg;--w:12.6cqw" type="button" data-detail="r_studyworld" aria-label="Open photos: Courses"><img data-img="sw_courses" alt="Courses"><span class="pc">Courses</span></button><button class="photo pos rev1" style="--x:68%;--y:44%;--r:-1deg;--w:12.6cqw" type="button" data-detail="r_studyworld" aria-label="Open photos: Games"><img data-img="sw_games" alt="Games"><span class="pc">Games</span></button><button class="photo pos rev1" style="--x:82%;--y:44%;--r:1deg;--w:12.6cqw" type="button" data-detail="r_studyworld" aria-label="Open photos: APIs in Postman"><img data-img="sw_api" alt="APIs in Postman"><span class="pc">APIs in Postman</span></button>
+          <button class="photo pos rev1" style="--x:54%;--y:5%;--r:-1deg;--w:19.5cqw" type="button" data-detail="r_feedback" aria-label="Open photos: Landing: available forms"><img data-img="fb_land" alt="Landing: available forms"><span class="pc">Landing: available forms</span></button><button class="photo pos rev1" style="--x:75%;--y:5%;--r:1deg;--w:19.5cqw" type="button" data-detail="r_feedback" aria-label="Open photos: Admin registration"><img data-img="fb_reg" alt="Admin registration"><span class="pc">Admin registration</span></button><button class="photo pos rev1" style="--x:54%;--y:38%;--r:1deg;--w:19.5cqw" type="button" data-detail="r_feedback" aria-label="Open photos: My forms"><img data-img="fb_forms" alt="My forms"><span class="pc">My forms</span></button><button class="photo pos rev1" style="--x:75%;--y:38%;--r:-1deg;--w:19.5cqw" type="button" data-detail="r_feedback" aria-label="Open photos: View analytics"><img data-img="fb_an" alt="View analytics"><span class="pc">View analytics</span></button>
         </div>
       </section>
 
       <!-- PROJECT 9 -->
-      <section class="chapter proj" id="ch-p9" data-tag="Checkpoint|Project 9 · Feedback" data-label="Checkpoint 12 · Project 9 · Feedback collection system">
-        <p class="layer">Checkpoint 12 · Feedback Collection System</p>
+      <section class="chapter proj" id="ch-p9" data-tag="Checkpoint|Project 9 · StudyWorld" data-label="Checkpoint 12 · Project 9 · StudyWorld">
+        <p class="layer">Checkpoint 12 · StudyWorld</p>
         <div class="box">
           <svg class="art" viewBox="0 0 1600 900" aria-hidden="true">
             <rect class="ink" x="968" y="690" width="26" height="210"/><rect class="ink" x="1392" y="690" width="26" height="210"/>
@@ -930,12 +940,12 @@ a.cert:hover { background: var(--paper-2); }
             </svg>
           <p class="slab pos" style="--x:3%;--y:3%">Project 9</p>
           <div class="lcol pos" style="--x:3%;--y:15%;--w:45cqw">
-            <div class="mtag rev1"><b>Feedback Collection System</b><span>MERN · forms and analytics</span></div>
-            <div class="pcard rev2"><h4>What I built</h4><ul><li>Landing page lists the available feedback forms; respondents answer dynamic questions (text, radio, checkbox, rating).</li><li>Admins register and log in securely (hashed passwords, JWT) and build forms from a dashboard.</li><li>Per-form analytics with charts, so admins can see how people rated each question.</li></ul><div class="res2"><div><b>4</b><span>question types</span></div><div><b>MERN</b><span>stack</span></div></div></div>
-            <ul class="stks chips rev3"><li class="stk">React 18</li><li class="stk">Node.js</li><li class="stk">Express</li><li class="stk">MongoDB</li><li class="stk">JWT</li><li class="stk">bcryptjs</li></ul>
-            <div class="btns rev3"><button class="more" type="button" data-detail="r_feedback">Case study +</button><a class="more lnk" href="https://github.com/kalimuthu765/Feedback_collection_system" target="_blank" rel="noopener">GitHub ↗</a></div>
+            <div class="mtag rev1"><b>StudyWorld</b><span>Full-stack web app · HTML, CSS, JavaScript + Spring Boot</span></div>
+            <div class="pcard rev2"><h4>What I built</h4><ul><li>Front end in HTML, CSS and JavaScript: home, dashboard, profile, registration, to-do, courses, calculator, games and music pages.</li><li>Java 8 and Spring Boot backend in layers (controller, service, repository, model, DTO), with REST APIs and exception handling.</li><li>Spring Security with JWT for login; built with Maven, tested in Postman, versioned with Git.</li></ul><div class="res2"><div><b>9</b><span>pages</span></div><div><b>11</b><span>endpoints</span></div></div></div>
+            <ul class="stks chips rev3"><li class="stk">HTML/CSS/JS</li><li class="stk">Java 8</li><li class="stk">Spring Boot</li><li class="stk">JWT</li><li class="stk">MongoDB</li><li class="stk">Maven</li></ul>
+            <div class="btns rev3"><button class="more" type="button" data-detail="r_studyworld">Case study +</button><a class="more lnk" href="https://github.com/kalimuthu765/StudyWorld" target="_blank" rel="noopener">GitHub ↗</a></div>
           </div>
-          <button class="photo pos rev1" style="--x:54%;--y:5%;--r:-1deg;--w:19.5cqw" type="button" data-detail="r_feedback" aria-label="Open photos: Landing: available forms"><img data-img="fb_land" alt="Landing: available forms"><span class="pc">Landing: available forms</span></button><button class="photo pos rev1" style="--x:75%;--y:5%;--r:1deg;--w:19.5cqw" type="button" data-detail="r_feedback" aria-label="Open photos: Admin registration"><img data-img="fb_reg" alt="Admin registration"><span class="pc">Admin registration</span></button><button class="photo pos rev1" style="--x:54%;--y:38%;--r:1deg;--w:19.5cqw" type="button" data-detail="r_feedback" aria-label="Open photos: My forms"><img data-img="fb_forms" alt="My forms"><span class="pc">My forms</span></button><button class="photo pos rev1" style="--x:75%;--y:38%;--r:-1deg;--w:19.5cqw" type="button" data-detail="r_feedback" aria-label="Open photos: View analytics"><img data-img="fb_an" alt="View analytics"><span class="pc">View analytics</span></button>
+          <button class="photo pos rev1" style="--x:54%;--y:5%;--r:-1deg;--w:40cqw" type="button" data-detail="r_studyworld" aria-label="Open photos: Dashboard"><img data-img="sw_dash" alt="Dashboard"><span class="pc">Dashboard</span></button><button class="photo pos rev1" style="--x:54%;--y:44%;--r:1deg;--w:12.6cqw" type="button" data-detail="r_studyworld" aria-label="Open photos: Courses"><img data-img="sw_courses" alt="Courses"><span class="pc">Courses</span></button><button class="photo pos rev1" style="--x:68%;--y:44%;--r:-1deg;--w:12.6cqw" type="button" data-detail="r_studyworld" aria-label="Open photos: Games"><img data-img="sw_games" alt="Games"><span class="pc">Games</span></button><button class="photo pos rev1" style="--x:82%;--y:44%;--r:1deg;--w:12.6cqw" type="button" data-detail="r_studyworld" aria-label="Open photos: APIs in Postman"><img data-img="sw_api" alt="APIs in Postman"><span class="pc">APIs in Postman</span></button>
         </div>
       </section>
 
@@ -961,36 +971,25 @@ a.cert:hover { background: var(--paper-2); }
         </div>
       </section>
 
-      <!-- PROJECT 12 -->
-      <section class="chapter" id="ch-p12" data-tag="Checkpoint|Project 12 · Gen-AI" data-label="Checkpoint 14 · Project 12 · Generative AI notebooks">
-        <p class="layer">Checkpoint 14 · Project 12</p>
-        <div class="box">
-          <p class="slab sm2 pos" style="--x:3%;--y:3%">Project 12 · Generative AI</p>
-          <p class="cap pos rev1" style="--x:3%;--y:15%;--w:70cqw">21 Jupyter notebooks, each one its own experiment. Tap a notebook to open it on GitHub.</p>
-          <div class="nbgrid pos rev2" style="--x:3%;--y:24%;--w:94cqw"><div class="nbcol"><h5>Chatbots and RAG</h5><a class="nb" href="https://github.com/kalimuthu765/Gen-AI/blob/main/Wikipedia_bot%28using_RAG%29.ipynb" target="_blank" rel="noopener"><u>NB</u>Wikipedia bot (RAG)</a><a class="nb" href="https://github.com/kalimuthu765/Gen-AI/blob/main/Wikipedia_Chatbot.ipynb" target="_blank" rel="noopener"><u>NB</u>Wikipedia chatbot</a><a class="nb" href="https://github.com/kalimuthu765/Gen-AI/blob/main/Pdf_chatbot.ipynb" target="_blank" rel="noopener"><u>NB</u>PDF chatbot</a><a class="nb" href="https://github.com/kalimuthu765/Gen-AI/blob/main/AI_Chatbot.ipynb" target="_blank" rel="noopener"><u>NB</u>AI chatbot</a><a class="nb" href="https://github.com/kalimuthu765/Gen-AI/blob/main/Ai%20analyzer%2Ctranslator%2Cchatbot.ipynb" target="_blank" rel="noopener"><u>NB</u>Analyzer, translator, chatbot</a><a class="nb" href="https://github.com/kalimuthu765/Gen-AI/blob/main/question_to_ask.ipynb" target="_blank" rel="noopener"><u>NB</u>Question to ask</a></div><div class="nbcol"><h5>Summarise and analyse</h5><a class="nb" href="https://github.com/kalimuthu765/Gen-AI/blob/main/Resume_Analyzer.ipynb" target="_blank" rel="noopener"><u>NB</u>Resume analyzer</a><a class="nb" href="https://github.com/kalimuthu765/Gen-AI/blob/main/Text_summarization.ipynb" target="_blank" rel="noopener"><u>NB</u>Text summarization</a><a class="nb" href="https://github.com/kalimuthu765/Gen-AI/blob/main/Webdata_summarizer.ipynb" target="_blank" rel="noopener"><u>NB</u>Web page summarizer</a><a class="nb" href="https://github.com/kalimuthu765/Gen-AI/blob/main/Youtube_video_summarizer.ipynb" target="_blank" rel="noopener"><u>NB</u>YouTube summarizer</a></div><div class="nbcol"><h5>Language and text</h5><a class="nb" href="https://github.com/kalimuthu765/Gen-AI/blob/main/Sentiment_analysis.ipynb" target="_blank" rel="noopener"><u>NB</u>Sentiment analysis</a><a class="nb" href="https://github.com/kalimuthu765/Gen-AI/blob/main/Spam%20Detection.ipynb" target="_blank" rel="noopener"><u>NB</u>Spam detection</a><a class="nb" href="https://github.com/kalimuthu765/Gen-AI/blob/main/Language_translator.ipynb" target="_blank" rel="noopener"><u>NB</u>Language translator</a><a class="nb" href="https://github.com/kalimuthu765/Gen-AI/blob/main/Part_of_speech.ipynb" target="_blank" rel="noopener"><u>NB</u>Part of speech tagging</a></div><div class="nbcol"><h5>Generators</h5><a class="nb" href="https://github.com/kalimuthu765/Gen-AI/blob/main/Text_2_image.ipynb" target="_blank" rel="noopener"><u>NB</u>Text to image</a><a class="nb" href="https://github.com/kalimuthu765/Gen-AI/blob/main/Text_2_video.ipynb" target="_blank" rel="noopener"><u>NB</u>Text to video</a><a class="nb" href="https://github.com/kalimuthu765/Gen-AI/blob/main/GAN_model.ipynb" target="_blank" rel="noopener"><u>NB</u>GAN model</a><a class="nb" href="https://github.com/kalimuthu765/Gen-AI/blob/main/model_Diffusion.ipynb" target="_blank" rel="noopener"><u>NB</u>Diffusion model</a><a class="nb" href="https://github.com/kalimuthu765/Gen-AI/blob/main/story_generator_for_one_line.ipynb" target="_blank" rel="noopener"><u>NB</u>One-line story generator</a><a class="nb" href="https://github.com/kalimuthu765/Gen-AI/blob/main/Novel_Creator.ipynb" target="_blank" rel="noopener"><u>NB</u>Novel creator</a></div><div class="nbcol"><h5>And more</h5><a class="nb" href="https://github.com/kalimuthu765/Gen-AI/blob/main/pygame_loop.ipynb" target="_blank" rel="noopener"><u>NB</u>Pygame loop</a><a class="nb" href="https://github.com/kalimuthu765/Gen-AI/blob/main/IBMDesign20250426-26-8kmlj1.pdf" target="_blank" rel="noopener"><u>PDF</u>IBM design (PDF)</a></div></div>
-          <div class="btns pos rev3" style="--x:3%;--y:76%"><button class="more" type="button" data-detail="r_genai">About these +</button><a class="more lnk" href="https://github.com/kalimuthu765/Gen-AI" target="_blank" rel="noopener">Gen-AI repo ↗</a></div>
-        </div>
-      </section>
-
       <!-- SKILLS -->
-      <section class="chapter" id="ch-skills" data-tag="Checkpoint|Skills" data-label="Checkpoint 15 · Technical skills">
-        <p class="layer">Checkpoint 15 · Skills</p>
+      <section class="chapter" id="ch-skills" data-tag="Checkpoint|Skills" data-label="Checkpoint 14 · Technical skills">
+        <p class="layer">Checkpoint 14 · Skills</p>
         <div class="box">
           <p class="slab pos" style="--x:3%;--y:3%">Skills</p>
-          <div class="cstack pos" style="--x:3%;--y:18%;--w:94cqw"><ul class="skgrid rev1"><li class="skcard"><b>Languages</b><span>Java · Python · C · C++ · SQL · JavaScript</span></li><li class="skcard"><b>Backend</b><span>Spring Boot · Spring · Hibernate · JDBC · Node.js · Express · REST APIs · JWT</span></li><li class="skcard"><b>Frontend and mobile</b><span>HTML · CSS · React · React Native · Expo</span></li><li class="skcard"><b>Databases</b><span>MongoDB · MySQL · PostgreSQL</span></li><li class="skcard"><b>AI, ML and vision</b><span>NumPy · Pandas · scikit-learn · OpenCV · TensorFlow / Keras · PyTorch · LSTM · HOG</span></li><li class="skcard"><b>Developer tools</b><span>Git · GitHub · Postman · Swagger · Jupyter · Google Colab · VS Code · Kaggle</span></li><li class="skcard"><b>Core CS</b><span>Data structures and algorithms · OOP · DBMS · Operating systems</span></li><li class="skcard"><b>Soft skills</b><span>Leadership · Team collaboration · Time management · Communication · Critical thinking</span></li></ul>
+          <div class="cstack pos" style="--x:3%;--y:18%;--w:94cqw"><ul class="skgrid rev1"><li class="skcard"><b>Languages</b><span>Java · Python · C · C++ · SQL · JavaScript</span></li><li class="skcard"><b>Backend</b><span>Spring Boot · Spring · Hibernate · JDBC · Node.js · Express · REST APIs · JWT</span></li><li class="skcard"><b>Frontend</b><span>HTML · CSS · JavaScript · React</span></li><li class="skcard"><b>Databases</b><span>MongoDB · MySQL · PostgreSQL</span></li><li class="skcard"><b>AI, ML and vision</b><span>NumPy · Pandas · scikit-learn · OpenCV · TensorFlow / Keras · PyTorch · LSTM · HOG</span></li><li class="skcard"><b>Developer tools</b><span>Git · GitHub · Postman · Swagger · Jupyter · Google Colab · VS Code · Kaggle</span></li><li class="skcard"><b>Core CS</b><span>Data structures and algorithms · OOP · DBMS · Operating systems</span></li></ul>
           <div class="btns rev2"><button class="more" type="button" data-detail="skills">All skills +</button></div></div>
         </div>
       </section>
 
       <!-- CERTIFICATES -->
-      <section class="chapter" id="ch-certs" data-tag="Checkpoint|Certificates" data-label="Checkpoint 16 · Certificates and activities">
-        <p class="layer">Checkpoint 16 · Certificates</p>
+      <section class="chapter" id="ch-certs" data-tag="Checkpoint|Certificates" data-label="Checkpoint 15 · Certificates and activities">
+        <p class="layer">Checkpoint 15 · Certificates</p>
         <div class="box">
           <p class="slab pos" style="--x:3%;--y:3%">Certificates</p>
           <div class="cstack pos" style="--x:3%;--y:17%;--w:94cqw">
             <ul class="certgrid rev1"><li><a class="cert" href="https://drive.google.com/file/d/1KetbGOSrN1D2yf_UI2jEGAwQHb38VH3B/view?usp=sharing" target="_blank" rel="noopener"><svg viewBox="0 0 40 52" aria-hidden="true"><path d="M10 0 L20 18 L30 0 Z" fill="#E4261C"/><circle cx="20" cy="33" r="15" fill="#101010"/><circle cx="20" cy="33" r="10" fill="none" stroke="#F2EDE3" stroke-width="2"/><path d="M14 33 L19 38 L27 28" fill="none" stroke="#F2EDE3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><b>Programming with Java</b><span>View certificate ↗</span></a></li><li><a class="cert" href="https://drive.google.com/file/d/13CvtS_trscczBk0b7IJxPXbj6hae7VpY/view?usp=sharing" target="_blank" rel="noopener"><svg viewBox="0 0 40 52" aria-hidden="true"><path d="M10 0 L20 18 L30 0 Z" fill="#E4261C"/><circle cx="20" cy="33" r="15" fill="#101010"/><circle cx="20" cy="33" r="10" fill="none" stroke="#F2EDE3" stroke-width="2"/><path d="M14 33 L19 38 L27 28" fill="none" stroke="#F2EDE3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><b>IBM Fundamentals of AI</b><span>View certificate ↗</span></a></li><li><a class="cert" href="https://drive.google.com/file/d/1BVKUH3qGYAWet4fzcS0zxcjjl9ExGVB-/view?usp=sharing" target="_blank" rel="noopener"><svg viewBox="0 0 40 52" aria-hidden="true"><path d="M10 0 L20 18 L30 0 Z" fill="#E4261C"/><circle cx="20" cy="33" r="15" fill="#101010"/><circle cx="20" cy="33" r="10" fill="none" stroke="#F2EDE3" stroke-width="2"/><path d="M14 33 L19 38 L27 28" fill="none" stroke="#F2EDE3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><b>FFE Mentoring Program</b><span>View certificate ↗</span></a></li><li><a class="cert" href="https://drive.google.com/file/d/1A2XYDU5FKgipukhDuuXkgBqmUMNg-i7a/view?usp=sharing" target="_blank" rel="noopener"><svg viewBox="0 0 40 52" aria-hidden="true"><path d="M10 0 L20 18 L30 0 Z" fill="#E4261C"/><circle cx="20" cy="33" r="15" fill="#101010"/><circle cx="20" cy="33" r="10" fill="none" stroke="#F2EDE3" stroke-width="2"/><path d="M14 33 L19 38 L27 28" fill="none" stroke="#F2EDE3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><b>Aspire Institute Awards</b><span>View certificate ↗</span></a></li><li><a class="cert" href="https://drive.google.com/file/d/10BHaNxijdmP70nJtMHhiR5A077MVYj81/view?usp=sharing" target="_blank" rel="noopener"><svg viewBox="0 0 40 52" aria-hidden="true"><path d="M10 0 L20 18 L30 0 Z" fill="#E4261C"/><circle cx="20" cy="33" r="15" fill="#101010"/><circle cx="20" cy="33" r="10" fill="none" stroke="#F2EDE3" stroke-width="2"/><path d="M14 33 L19 38 L27 28" fill="none" stroke="#F2EDE3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><b>MATLAB Onramp</b><span>View certificate ↗</span></a></li><li><a class="cert" href="https://drive.google.com/file/d/1-PYv9NCEa4itAvNJsxn-wpgSuBGTjLza/view?usp=sharing" target="_blank" rel="noopener"><svg viewBox="0 0 40 52" aria-hidden="true"><path d="M10 0 L20 18 L30 0 Z" fill="#E4261C"/><circle cx="20" cy="33" r="15" fill="#101010"/><circle cx="20" cy="33" r="10" fill="none" stroke="#F2EDE3" stroke-width="2"/><path d="M14 33 L19 38 L27 28" fill="none" stroke="#F2EDE3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><b>Design Thinking (NPTEL)</b><span>View certificate ↗</span></a></li><li><a class="cert" href="https://drive.google.com/file/d/15RU1bYDQQVvnlfr_1cXWIka9yQmN7_HL/view?usp=sharing" target="_blank" rel="noopener"><svg viewBox="0 0 40 52" aria-hidden="true"><path d="M10 0 L20 18 L30 0 Z" fill="#E4261C"/><circle cx="20" cy="33" r="15" fill="#101010"/><circle cx="20" cy="33" r="10" fill="none" stroke="#F2EDE3" stroke-width="2"/><path d="M14 33 L19 38 L27 28" fill="none" stroke="#F2EDE3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><b>Cognos Analytics</b><span>View certificate ↗</span></a></li><li><a class="cert" href="https://drive.google.com/file/d/1g3wZieKkYdaIsKkBFfspl2OJA2mo9n07/view?usp=sharing" target="_blank" rel="noopener"><svg viewBox="0 0 40 52" aria-hidden="true"><path d="M10 0 L20 18 L30 0 Z" fill="#E4261C"/><circle cx="20" cy="33" r="15" fill="#101010"/><circle cx="20" cy="33" r="10" fill="none" stroke="#F2EDE3" stroke-width="2"/><path d="M14 33 L19 38 L27 28" fill="none" stroke="#F2EDE3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><b>Amazon Junior Software Developer</b><span>View certificate ↗</span></a></li></ul>
             <p class="step2 rev2">Beyond class</p>
-            <ul class="acts rev2"><li><b>Organizer</b>TEKHORA'26 hackathon</li><li><b>Volunteer lead</b>NSS</li><li><b>300+</b>LeetCode problems</li></ul>
+            <ul class="acts rev2"><li><b>Organizer</b>TEKHORA'26 hackathon</li><li><b>Volunteer lead</b>NSS</li><li><b>500+</b>LeetCode problems</li></ul>
           </div>
         </div>
       </section>
@@ -1004,7 +1003,7 @@ a.cert:hover { background: var(--paper-2); }
             <p class="name" style="font-size:clamp(2.2rem,1.4rem + 4vw,5.2rem)">Kalimuthu K</p>
             <div class="mail-row"><span id="mail-text">kalimuthuk756@gmail.com</span><button class="copy" type="button" data-copy="mail-text">Copy</button></div>
             <div class="mail-row"><span id="phone-text">+91 6382268637</span><button class="copy" type="button" data-copy="phone-text">Copy</button></div>
-            <p class="info">github.com/kalimuthu765 · linkedin.com/in/kalimuthuk · leetcode.com/u/kalimuthu_K67</p>
+            <p class="info flinks"><a href="https://github.com/kalimuthu765" target="_blank" rel="noopener">GitHub</a> · <a href="https://www.linkedin.com/in/kalimuthuk" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://leetcode.com/u/kalimuthu_K67/" target="_blank" rel="noopener">LeetCode</a></p>
           </div></div>
           <div class="navchips">
             <a class="navchip" href="https://drive.google.com/drive/folders/1fx4vzd2Dpzg6ZaUbar2mh4QNclOkzIbS?usp=sharing" target="_blank" rel="noopener">Resume</a>
@@ -1082,7 +1081,7 @@ var IMG = {"l_app1": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAk
   var finIdx = chapters.length - 1, finEl = chapters[finIdx];
   var mq = window.matchMedia('(prefers-reduced-motion: reduce)');
   var enabled = false, dist = 0, lefts = [], ps = [], lastY = 0, starts = [], dwells = [], slideLen = 0, total = 0, onFlags = [];
-  var DWELL = { 'ch-hero': 0.8, 'ch-who': 0.9, 'ch-edu': 1.3, 'ch-intern': 1.9, 'ch-p1': 1.4, 'ch-p2': 1.4, 'ch-p3': 1.4, 'ch-p4': 1.4, 'ch-p5': 1.4, 'ch-p6': 1.4, 'ch-p7': 1.4, 'ch-p8': 1.2, 'ch-p9': 1.2, 'ch-p10': 1.3, 'ch-p12': 1.4, 'ch-skills': 1.3, 'ch-certs': 1.3, 'ch-finale': 1.6 };
+  var DWELL = { 'ch-hero': 0.8, 'ch-who': 0.9, 'ch-edu': 1.3, 'ch-intern': 1.9, 'ch-p1': 1.4, 'ch-p2': 1.4, 'ch-p3': 1.4, 'ch-p4': 1.4, 'ch-p5': 1.4, 'ch-p6': 1.4, 'ch-p7': 1.4, 'ch-p8': 1.2, 'ch-p9': 1.2, 'ch-p10': 1.3, 'ch-skills': 1.3, 'ch-certs': 1.3, 'ch-finale': 1.6 };
   var curIdx = -1, ticking = false, runTimer = null, jumpTimer = null, broke = false;
 
   function buildChips() {
@@ -1177,7 +1176,7 @@ var IMG = {"l_app1": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAk
     clearTimeout(arrT); arrT = setTimeout(function () { c.classList.remove('arrived'); }, 1900);
     if (fxEls) {
       fxEls.split.querySelector('b').textContent = hudM.textContent + ' M';
-      fxEls.split.querySelector('span').textContent = 'Split · Checkpoint ' + k;
+      fxEls.split.querySelector('span').textContent = 'Checkpoint ' + k;
       fxEls.split.classList.remove('show'); void fxEls.split.offsetWidth; fxEls.split.classList.add('show');
     }
     runner.classList.remove('arrive'); void runner.offsetWidth; runner.classList.add('arrive');
@@ -1322,17 +1321,17 @@ var IMG = {"l_app1": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAk
       tech: ['Java', 'Spring Boot', 'MongoDB', 'JWT', 'RBAC', 'React', 'Postman', 'Swagger', 'Git'], links: []
     },
     ebop: {
-      shots: [['e_dash', 'Dashboard: leads, projects, tasks and revenue'], ['e_rep', 'Reports, with the EBOP assistant open'], ['e_land', 'Landing page'], ['e_logo', 'BE UNIQUE brand mark']], 
-      title: 'EBOP', cat: 'Enterprise Business Operations Platform · private repository',
-      over: 'A multi-company business platform in the spirit of Zoho and Salesforce, with a Spring Boot and MongoDB backend and a React frontend.',
-      built: ["Tenant isolation: tasks, meetings, clients, attachments, calendar, activity log and attendance are scoped to the caller's company.", 'Leads convert into projects, and revenue counts once a project reaches COMPLETED.', 'Leave module with approvals and in-app notifications, plus attendance, calendar, reports and a client portal.', 'An in-app assistant calls the Claude API with fixed, role-gated tools and answers policy questions from uploaded documents, citing them.', 'Security work: authenticated password change, blocked risky upload types, per-IP rate limits on login and signup.', 'Docker Compose for MongoDB, backend and frontend, and a GitHub Actions pipeline.', 'Files are stored in MongoDB GridFS, the API is documented with Swagger, and reports export as PDFs with iText.'],
-      tech: ['Spring Boot 3.5', 'MongoDB', 'React 18', 'Vite', 'Tailwind', 'Claude API', 'Docker', 'GitHub Actions'], results: [['24', 'frontend pages']], links: []
+      shots: [['e_dash', 'Dashboard: leads, projects, tasks and revenue'], ['e_rep', 'Reports, with the EBOP assistant open'], ['e_land', 'Landing page']], 
+      title: 'EBOP', cat: 'Enterprise Business Operations Platform',
+      over: 'A multi-company business platform in the spirit of Zoho and Salesforce, with a Spring Boot 3.5 and MongoDB backend and a React 18 frontend. Each company gets its own isolated workspace, and every role sees only what it is allowed to.',
+      built: ['Backend covers authentication, role-based access control, company management, leads, calendar, documents, reports, analytics and an employee request and approval workflow.', 'Frontend in React 18 with Vite and Tailwind: 24 pages with navigation that adapts to the signed-in role.', "Tenant isolation: tasks, meetings, clients, attachments, calendar, activity log and attendance are scoped to the caller's company.", 'Leads convert into projects, and revenue counts once a project reaches COMPLETED.', 'Leave module with approvals and in-app notifications, plus attendance, calendar, reports and a client portal.', 'An in-app assistant calls the Claude API with fixed, role-gated tools and answers policy questions from uploaded documents, citing them.', 'Security work: authenticated password change, blocked risky upload types, per-IP rate limits on login and signup.', 'Docker Compose for MongoDB, backend and frontend, and a GitHub Actions pipeline.', 'Files are stored in MongoDB GridFS, the API is documented with Swagger, and reports export as PDFs with iText.'],
+      tech: ['Spring Boot 3.5', 'MongoDB', 'React 18', 'Vite', 'Tailwind', 'Claude API', 'Docker', 'GitHub Actions'], results: [['24', 'frontend pages']], links: [['GitHub', 'about:blank']]
     },
     sports: {
       shots: [['s_land2', 'Landing page: enter as player or as team'], ['s_feed', 'Social feed'], ['s_prof', 'Player profile and stats'], ['s_ai', 'Sports AI assistant'], ['s_match', 'Approved teams and scheduled matches'], ['s_land', 'Landing page, project repository'], ['s_stat', 'Add match stats form'], ['s_poster', 'Project poster with UI screens']], 
       title: 'Sports Connect', cat: 'Course project AD23505 · team of three',
       over: 'A three-tier sports platform for players and teams, later extended with a public React hub.',
-      built: ['Node.js and Express backend on MongoDB with separate logins and dashboards for players and teams.', 'Profiles, tournaments, match scheduling, scorecards and match stats.', 'SportsConnect Hub in React: public live scores, players, series and rankings across ten sports.', 'An AI assistant on Gemini that retrieves from its own search index, with an evaluation question set.', 'Socket.IO for live updates.'],
+      built: ['Three tiers: an HTML, CSS and JavaScript front end, a Node.js and Express API, and MongoDB for data.', 'Separate logins and personalized dashboards: players keep a profile and stats, teams manage rosters and look for recruits.', 'Profiles, tournaments, match scheduling, scorecards and match stats.', 'SportsConnect Hub in React: public live scores, players, series and rankings across ten sports.', 'An AI assistant on Gemini that retrieves from its own search index, with an evaluation question set.', 'Socket.IO for live updates.', 'A social feed where players and teams post and follow each other, and an approvals flow for teams and scheduled matches.', 'Built as a team of three for course AD23505, then extended by me with the React hub and the AI assistant.'],
       tech: ['HTML/CSS/JS', 'Node.js', 'Express', 'MongoDB', 'React', 'Socket.IO', 'Gemini', 'RAG'], links: [['GitHub', 'https://github.com/kalimuthu765/Sports_connect_website']]
     },
     wildlife: {
@@ -1360,8 +1359,8 @@ var IMG = {"l_app1": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAk
       shots: [['r_erase', 'Erase people from a photo: before and after'], ['r_video', 'Erase people from video'], ['r_portal', 'Magic portal'], ['r_live', 'Live camera'], ['r_hero', 'Hero art'], ['r_gallery', 'Gallery']], 
       title: 'RealityFrame Fusion', cat: 'Gesture-controlled camera effects',
       over: 'Two computer vision demos merged into one app, with a web studio and standalone people-removal tools.',
-      built: ['Rect portal: stretch both hands apart to open a window into a captured background.', 'Finger portal: a circular portal follows the index finger, and thumb-index distance sets its size.', 'AR target: ArUco markers tracked with sub-pixel corners and a Kalman filter, each wearing a warped graphic.', 'Erases people from photos, video and a live webcam, with a background that keeps itself up to date.', 'Flask web studio, plus a gesture classifier you can train and personalize on your own hands.'],
-      tech: ['Python', 'OpenCV', 'MediaPipe Tasks', 'ArUco', 'scikit-learn', 'Flask'], results: [['4', 'modes'], ['3', 'erase tools']], links: []
+      built: ['Rect portal: stretch both hands apart to open a window into a captured background.', 'Finger portal: a circular portal follows the index finger, and thumb-index distance sets its size.', 'AR target: ArUco markers tracked with sub-pixel corners and a Kalman filter, each wearing a warped graphic.', 'Erases people from photos, video and a live webcam, with a background that keeps itself up to date.', 'Flask web studio, plus a gesture classifier you can train and personalize on your own hands.', 'How it works: MediaPipe finds the hand landmarks on every frame, and the portal position and size come from the fingertip and the thumb-index distance.', 'Why it stays steady: a Kalman filter smooths the ArUco marker corners, so the warped graphic does not jitter.', 'How the erase works: the app keeps a running model of the empty background and fills in the area behind a removed person.'],
+      tech: ['Python', 'OpenCV', 'MediaPipe Tasks', 'ArUco', 'scikit-learn', 'Flask'], results: [['4', 'modes'], ['3', 'erase tools']], links: [['GitHub', 'about:blank']]
     },
     hostel: {
       shots: [['h_login', 'Login screen'], ['h_home', 'Student home'], ['h_create', 'Create outpass form']],
@@ -1373,7 +1372,7 @@ var IMG = {"l_app1": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAk
     archive: {
       shots: [['n_queen', 'N-Queen website: board solved']],
       title: 'The archive', cat: 'Public repositories on GitHub',
-      over: 'Smaller builds, experiments and coursework from github.com/kalimuthu765.',
+      over: 'Smaller builds, experiments and coursework from my GitHub profile.',
       built: ['N-Queen website: an interactive board that places queens so none attack each other.', 'StudyWorld, Feedback collection system, Puzzle and Generative AI notebooks.'],
       tech: ['HTML', 'CSS', 'JavaScript', 'Python'], links: []
     },
@@ -1412,13 +1411,13 @@ var IMG = {"l_app1": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAk
     projects: {
       title: 'All projects', cat: 'Click any project for details',
       over: 'Every project on this page in one list, from the internship to the smaller repositories on github.com/kalimuthu765.',
-      list: [['snapdeek', 'Snapdeek Technologies', 'Internship · Spring Boot, MongoDB'], ['ebop', 'EBOP', 'Enterprise platform · private repository'], ['sports', 'Sports Connect', 'Sports hub · Node, React, Gemini'], ['wildlife', 'Wildlife Intrusion Detector', 'MobileNetV2 + Arduino'], ['adsb', 'ADS-B Anomaly Monitoring', 'LSTM autoencoder'], ['lung', 'Lung Disease Detection', 'Chest X-ray · SVM'], ['reality', 'RealityFrame Fusion', 'Gesture camera effects'], ['hostel', 'Hostel Outpass Management', 'React Native app'], ['r_feedback', 'Feedback Collection System', 'MERN'], ['r_studyworld', 'StudyWorld', 'Spring Boot API'], ['r_puzzle', '8-Puzzle Solver', 'BFS, DFS, A*'], ['r_nqueen', 'N-Queen Website', 'Visualiser'], ['r_genai', 'Generative AI Notebooks', '24 notebooks']],
+      list: [['snapdeek', 'Snapdeek Technologies', 'Internship · Spring Boot, MongoDB'], ['ebop', 'EBOP', 'Enterprise platform · private repository'], ['sports', 'Sports Connect', 'Sports hub · Node, React, Gemini'], ['wildlife', 'Wildlife Intrusion Detector', 'MobileNetV2 + Arduino'], ['adsb', 'ADS-B Anomaly Monitoring', 'LSTM autoencoder'], ['lung', 'Lung Disease Detection', 'Chest X-ray · SVM'], ['reality', 'RealityFrame Fusion', 'Gesture camera effects'], ['hostel', 'Hostel Outpass Management', 'React Native app'], ['r_feedback', 'Feedback Collection System', 'MERN'], ['r_studyworld', 'StudyWorld', 'Spring Boot API'], ['r_puzzle', '8-Puzzle Solver', 'BFS, DFS, A*'], ['r_nqueen', 'N-Queen Website', 'Visualiser']],
       links: []
     },
     edu: {
       title: 'Education', cat: 'School, then college',
       over: 'Schooling in Dindigul, then an engineering degree in Chennai.',
-      groups: [['College · B.Tech Artificial Intelligence and Data Science', ['Madras Institute of Technology, Anna University, Chennai', '2023 to present (final year)', 'CGPA 7.40', 'Core: data structures, OOP, DBMS, operating systems, machine learning, deep learning and computer vision course projects']], ['School · Higher Secondary (HSC)', ['Akshaya Academy Matriculation Higher Secondary School, Dindigul', 'Stream: Computer Science', '2022 to 2023', '92.16%']], ['Beyond class', ['Organizer of the TEKHORA\'26 hackathon', 'NSS volunteer lead', '300+ LeetCode problems solved']]],
+      groups: [['College · B.Tech Artificial Intelligence and Data Science', ['Madras Institute of Technology, Anna University, Chennai', '2023 to present (final year)', 'CGPA 7.40', 'Core CS: object oriented programming and data structures, DBMS, operating systems, design and analysis of algorithms, computer networks, distributed systems and cloud computing', 'AI and data: fundamentals of data science, machine learning methods, artificial intelligence, deep learning, NLP, big data analytics, MLOps', 'Applied: data exploration and visualization, software development project laboratory']], ['School · Higher Secondary (HSC)', ['Akshaya Academy Matriculation Higher Secondary School, Dindigul', 'Stream: Computer Science', '2022 to 2023', '92.16%']], ['Beyond class', ['Organizer of the TEKHORA\'26 hackathon', 'NSS volunteer lead', '500+ LeetCode problems solved']]],
       links: [['Resume', 'https://drive.google.com/drive/folders/1fx4vzd2Dpzg6ZaUbar2mh4QNclOkzIbS?usp=sharing']]
     },
     contact: {
@@ -1435,7 +1434,7 @@ var IMG = {"l_app1": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAk
     skills: {
       title: 'Technical skills', cat: 'Everything on the resume',
       over: '',
-      groups: [['Languages', ['C', 'C++', 'Java', 'Python', 'SQL', 'Embedded C']], ['Web and backend', ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Express', 'Spring Boot', 'Hibernate ORM', 'JDBC', 'REST APIs', 'JWT', 'Flask']], ['AI and data', ['NumPy', 'Pandas', 'Matplotlib', 'Seaborn', 'scikit-learn', 'TensorFlow', 'PyTorch', 'Keras', 'OpenCV', 'NLTK', 'RNN']], ['Databases', ['MySQL', 'MongoDB', 'PostgreSQL']], ['Tools', ['Git', 'GitHub', 'Postman', 'Swagger', 'Maven', 'Jupyter', 'Google Colab', 'Kaggle', 'VS Code', 'Docker']], ['Cloud (basics)', ['AWS', 'Microsoft Azure']], ['Core CS', ['Data structures and algorithms', 'OOP', 'DBMS', 'Operating systems']], ['Security', ['JWT', 'Role-based access control']], ['Soft skills', ['Leadership', 'Team collaboration', 'Time management', 'Communication', 'Critical thinking', 'Adaptability']], ['Activities', ['Organizer, hackathon, TEKHORA\'26 (national-level symposium)', 'NSS volunteer lead']], ['Certifications', ['IBM Fundamentals of AI', 'Programming with Java', 'Design Thinking (NPTEL)', 'MATLAB Onramp', 'FFE Mentoring Program', 'Aspire Institute Awards']]]
+      groups: [['Languages', ['C', 'C++', 'Java', 'Python', 'SQL', 'Embedded C']], ['Web and backend', ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js', 'Express', 'Spring Boot', 'Hibernate ORM', 'JDBC', 'REST APIs', 'JWT', 'Flask']], ['AI and data', ['NumPy', 'Pandas', 'Matplotlib', 'Seaborn', 'scikit-learn', 'TensorFlow', 'PyTorch', 'Keras', 'OpenCV', 'NLTK', 'RNN']], ['Databases', ['MySQL', 'MongoDB', 'PostgreSQL']], ['Tools', ['Git', 'GitHub', 'Postman', 'Swagger', 'Maven', 'Jupyter', 'Google Colab', 'Kaggle', 'VS Code', 'Docker']], ['Cloud (basics)', ['AWS', 'Microsoft Azure']], ['Core CS', ['Data structures and algorithms', 'OOP', 'DBMS', 'Operating systems']], ['Security', ['JWT', 'Role-based access control']], ['Activities', ['Organizer, hackathon, TEKHORA\'26 (national-level symposium)', 'NSS volunteer lead']], ['Certifications', ['IBM Fundamentals of AI', 'Programming with Java', 'Design Thinking (NPTEL)', 'MATLAB Onramp', 'FFE Mentoring Program', 'Aspire Institute Awards']]]
     }
   };
 
@@ -1463,8 +1462,6 @@ var IMG = {"l_app1": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAk
       d.links.forEach(function (l) { var a = el('a', 'btn fill', l[0] + ' ↗'); a.href = l[1]; a.target = '_blank'; a.rel = 'noopener'; row.appendChild(a); });
       mBody.appendChild(row);
     }
-    if (id === 'ebop') mBody.appendChild(el('p', 'note', 'The repository is private, so there is no public link.'));
-    if (id === 'reality') mBody.appendChild(el('p', 'note', 'Not published on GitHub yet.'));
     modal.classList.add('open'); sheet.scrollTop = 0; mClose.focus();
   }
   function closeDetail() { modal.classList.remove('open'); if (opener && opener.focus) opener.focus(); }
